@@ -19,10 +19,10 @@ python exporter.py
 
 ## Configuration
 
-Currently, the exporter can only be configured by modifying the source code. The following variables can be changed:
+The exporter can be configured using environment variables or command line arguments.
 
-- `PINS_DIR`: The directory where the CryptPad pins are stored. Default: `/srv/cryptpad/data/pins`
-- `PORT`: The port the exporter listens on. Default: `8000`
+- `PINS_DIR`/`--pins-dir`: The directory where the CryptPad pins are stored. Default: `/srv/cryptpad/data/pins`
+- `PORT`/`--port`: The port the exporter listens on. Default: `8000`
 
 ## License
 
